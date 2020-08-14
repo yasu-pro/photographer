@@ -1,0 +1,146 @@
+@import url(reset.css);
+
+body {
+    margin: 50px 10px;
+    background-image: url(../img/back.jpg);
+}
+
+.container { 
+    position: relative;
+}
+
+header {
+    background-color: whitesmoke;
+}
+
+
+h1 {
+    font-family: "Monotype Corsiva";
+    font-size: 60px;
+    text-align: center;
+}
+
+nav {
+    text-align: right;
+    width: 100%;
+    position: absolute;
+    top: -40px;
+}
+
+nav ul {
+    width: 100%;
+    display: table;
+}
+
+nav li {
+    margin-left: 10px;
+    display: table-cell;
+    display: inline-block;
+}
+
+nav a  {
+    font-size:17px;
+    font-family: "Times New Roman";
+    display: inline-block;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.content {
+    background-color: #fcc;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10px auto;
+    border: 1px solid #d1d1d1;
+    text-align: center;
+}
+
+.control {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.required {
+    color: #f33;
+    padding: 3px;
+    background-color: #fee;
+    font-weight: bold;
+}
+
+
+label {
+    width: 100%;
+    margin-left: 20px;
+}
+
+input {
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 73.5%;
+}
+textarea {
+    margin-top: 10px;
+    margin-left: 40px;
+    resize: none;
+    width: 73.5%;
+    height: 200px;
+}
+
+button {
+    margin-left: 20px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 479px) {
+    nav li {
+        margin-left: 5px;
+    }
+    
+    nav a {
+        font-size: 13px;
+    }
+    
+    .content p {
+        font-size: 13px;
+    }
+
+    label {
+        font-size: 13px;
+    }
+
+    textarea {
+        font-size: 13px;
+        margin-left: 40px;
+        resize: none;
+        width: 73.5%;
+        height: 100px;
+    }
+    
+    .content {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    footer p {
+        font-size: 10px;
+    }
+}
